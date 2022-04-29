@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Calculadora Simples</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
+    <main>
+        <div class="calculadora">
+            <input type="number" id="n1"step="0.1" min="0" max="15.4" placeholder="Digite o Primeiro Número"><br><br>
+            <select id="selector">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+            </select><br><br>
+            <input type="number" id="n2" placeholder="Digite o Segundo Número"><br><br>
+            <button onclick="calcular()">Calcular</button>
+        </div>
+        
+    </main>
+    <div class="result__div">
+        <h3 id="resultado"></h3>
+    </div>
+    
+    <footer>
+        <p id="me">Feito por Eduardo Ferreira</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    background-color: #E1B866;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: #fdfdfd;
+    text-shadow: 3px 3px #BD5532;
+    margin-top: 6rem;
+    font-size: 2.8rem;
+    box-sizing: border-box;
+
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    
+
+}
+
+.calculadora{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #73C8A9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+
+input{
+    width: 70%;
+    padding: .8rem;
+    border: none;
+    border-radius: 40px 20px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+
+}
+
+select{
+    border: none;
+    border-radius: 10px;
+    padding: .4rem;
+    width: 3.4rem;
+}
+
+
+
+h3{
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    color: #BD5532;
+  
+    font-size: 2rem;
+}
+
+button{
+    width: 10rem;
+    border: none;
+    border-radius: 40px 20px;
+    padding: .5rem;
+    margin-top: .5rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #663366;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+        font-size: 1.5rem;
+        color: #373B44;
+       
+    }
